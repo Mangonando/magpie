@@ -1,7 +1,7 @@
-import React from 'react'
-import './Footer.css'
-// import GithubIcon from '../../icons/github_icon.svg'
-// import LinkedinIcon from '../../icons/linkedin_icon.svg'
+import React from 'react';
+import './Footer.css';
+import GithubIcon from '../../icons/github_icon.svg';
+import LinkedinIcon from '../../icons/linkedin_icon.svg';
 
 export default function Footer() {
   return (
@@ -24,17 +24,18 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* <img src={GithubIcon} alt="Github Icon" /> */}
+            <img src={GithubIcon} alt="Github Icon" />
+            <i className="bi bi-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/juan-f-ramirez/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* <img src={LinkedinIcon} alt="Linkedin Icon" /> */}
+            <img src={LinkedinIcon} alt="Linkedin Icon" />
           </a>
         </div>
       </div>
     </>
-  )
+  );
 }

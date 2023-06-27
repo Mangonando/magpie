@@ -1,13 +1,24 @@
 import React from 'react';
 import './NavBar.css';
+import MagpieLogo from '../../icons/magpie_logo.png';
 
 export default function NavBar() {
   return (
     <>
-      <div className="nav-bar-container">
-        <div className="nav-bar-icon">Logo</div>
-        <div className="nav-bar-header">Magpie</div>
-      </div>
+      <nav className="navbar sticky-top">
+        <div className="container-fluid">
+          <div className="navbar-brand">
+            <img
+              src={MagpieLogo}
+              alt="Magpie Logo"
+              width="30"
+              height="24"
+              className="d-inline-block align-text-top"
+            />
+            Magpie
+          </div>
+        </div>
+      </nav>
     </>
   );
 }

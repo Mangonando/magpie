@@ -25,7 +25,7 @@ const App: React.FC = () => {
   return (
     <div>
       <NavBar />
-      <div>
+      {/* <div>
         {data.map((product: { id: number; title: string; image: string }) => (
           <div key={product.id}>
             <div>{product.title}</div>
@@ -33,7 +33,7 @@ const App: React.FC = () => {
           </div>
         ))}
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

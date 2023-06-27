@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 const App: React.FC = () => {
+  const [setData, data] = React.useState<any[]>([])
+
+  useEffect(() => {
+    const fetchFakeStoreData = async () => {}
+  })
+
   return (
     <div>
       <div>Magpie</div>

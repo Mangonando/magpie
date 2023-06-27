@@ -1,5 +1,4 @@
 import React from 'react';
-import './NavBar.css';
 import MagpieLogo from '../../icons/magpie_logo.png';
 
 export default function NavBar() {
